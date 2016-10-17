@@ -20,6 +20,7 @@ class MovieDetailViewController: UIViewController {
     @IBOutlet weak var popularityLabel: UILabel!
     @IBOutlet weak var durationLabel: UILabel!
     @IBOutlet weak var overviewLabel: UILabel!
+    @IBOutlet weak var homepageTextView: UITextView!
     
     var movie: NSDictionary = [:]
     var movieSupplemental: NSDictionary = [:]
@@ -104,6 +105,12 @@ class MovieDetailViewController: UIViewController {
                     
                     let runTimeMins = self.movieSupplemental.value(forKeyPath: "runtime")
                     self.durationLabel.text = String("\(runTimeMins!) mins")
+                    
+                    if let homepagePath = self.movieSupplemental["homepage"] as? String {
+                        self.homepageTextView.text = homepagePath
+                    } else {
+                        self.homepageTextView.text = ""
+                    }
                 }
             }
         });

@@ -25,6 +25,7 @@ struct Constants {
     
     static let apiBaseUrl = "https://api.themoviedb.org/3/"
     static let secureBaseUrl = "https://image.tmdb.org/t/p/"
+    static let posterBaseUrl = "http://image.tmdb.org/t/p/w500"
     static let imagePosterSizeSmall = "w45"
     static let imagePosterSizeLarge = "original"
     static let imageBackdropSizeSmall = "w300"

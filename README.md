@@ -28,6 +28,7 @@ The following **additional** features are implemented:
 
 - [x] Using Custom Fonts - OpenSans
 - [x] Added Genres to Movies list
+- [x] Added Browser to launch Movie Homepage from Movie Detail
 - [x] Added App Icon - Kraken Flicks
 - [x] When image fails, loads the Kraken Failed placeholder image
 - [x] Using NSNotificationCenter to notify when layouts should be updated in ViewController

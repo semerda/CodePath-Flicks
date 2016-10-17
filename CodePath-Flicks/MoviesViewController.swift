@@ -281,8 +281,7 @@ class MoviesViewController: UIViewController, UISearchBarDelegate, UITableViewDe
         // Note the use of key path inc @firstObject since .url is a list when consumed
         
         if let posterPath = movie["poster_path"] as? String {
-            let posterBaseUrl = "http://image.tmdb.org/t/p/w500"
-            let posterUrl = NSURL(string: posterBaseUrl + posterPath)
+            let posterUrl = NSURL(string: Constants.posterBaseUrl + posterPath)
             //cell.photoImageView.setImageWith(posterUrl! as URL)
             
             // Fading in an Image Loaded from the Network
