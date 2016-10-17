@@ -41,7 +41,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/semerda/CodePath-Flicks/blob/master/Assets/flicks-anim-v1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/semerda/CodePath-Flicks/blob/master/Assets/flicks-anim-v1.gif' title='Kraken Flicks Video Walkthrough' width='' alt='Kraken Flicks Video Walkthrough' loop=infinite />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
