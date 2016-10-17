@@ -22,18 +22,18 @@ The following **optional** features are implemented:
 - [x] All images fade in.
 - [x] For the large poster, load the low-res image first, switch to high-res when complete.
 - [x] Customize the highlight and selection effect of the cell.
-- [x] Customize the navigation bar
+- [x] Customize the navigation bar.
 
 The following **additional** features are implemented:
 
-- [x] Using Custom Fonts - OpenSans
-- [x] Added Genres to Movies list
-- [x] Added Browser to launch Movie Homepage from Movie Detail
-- [x] Added App Icon - Kraken Flicks
-- [x] When image fails, loads the Kraken Failed placeholder image
-- [x] Using NSNotificationCenter to notify when layouts should be updated in ViewController
-- [x] Customized MBProgressHUD so it's explicit/informative between Loading and Searching
-- [x] Added Infinity Scroll
+- [x] Using Custom Fonts - OpenSans.
+- [x] Added Genres to Movies list.
+- [x] Added Browser to launch Movie Homepage from Movie Detail.
+- [x] Added App Icon - Kraken Flicks.
+- [x] When image fails, loads the Kraken Failed placeholder image.
+- [x] Using NSNotificationCenter to notify when layouts should be updated in ViewController.
+- [x] Customized MBProgressHUD so it's explicit/informative between Loading and Searching.
+- [x] Added Infinity Scroll.
 - [x] Used [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) - a better way to deal with JSON data in Swift.
 - [x] Used [DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet) - for showing empty datasets whenever the view has no content to display.
 
@@ -44,6 +44,13 @@ Here's a walkthrough of implemented user stories:
 <img src='https://github.com/semerda/CodePath-Flicks/blob/master/Assets/flicks-anim-v1.gif' title='Kraken Flicks Video Walkthrough' width='' alt='Kraken Flicks Video Walkthrough' loop=infinite />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Open-source libraries used
+
+- [AFNetworking](https://github.com/AFNetworking/AFNetworking) - a delightful networking framework for iOS, OS X, watchOS, and tvOS.
+- [MBProgressHUD](https://github.com/jdg/MBProgressHUD) - an iOS drop-in class that displays a translucent HUD with an indicator and/or labels while work is being done in a background thread.
+- [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) - a better way to deal with JSON data in Swift.
+- [DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet) - for showing empty datasets whenever the view has no content to display.
 
 ## License
 
