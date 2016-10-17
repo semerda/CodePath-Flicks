@@ -54,7 +54,9 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## License
 
-    Copyright 2016 Ernest Semerda [www.ernestsemerda.com](http://www.ernestsemerda.com/)
+Visit [www.ernestsemerda.com](http://www.ernestsemerda.com/)
+
+    Copyright 2016 Ernest Semerda (http://www.ernestsemerda.com/)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
